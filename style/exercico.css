@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo-primary{
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    display: column;
+}
+
+h1{
+    margin: 32px auto;
+    text-align: center;
+}
+
+li{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    height: 300px;
+    width: 350px;
+    align-items: center;
+    display: inline-block;
+    margin: 30px 30px;
+    padding: 32px;
+    flex-direction: column;
+}
+
+li:active{
+    background-color: #363338;
+    border: 4px solid #0088d8;
+}
